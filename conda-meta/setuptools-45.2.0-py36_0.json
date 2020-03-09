@@ -1,0 +1,1585 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "certifi >=2016.9.26",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/sri/anaconda3/pkgs/setuptools-45.2.0-py36_0",
+  "features": "",
+  "files": [
+    "bin/easy_install",
+    "lib/python3.6/site-packages/__pycache__/easy_install.cpython-36.pyc",
+    "lib/python3.6/site-packages/easy_install.py",
+    "lib/python3.6/site-packages/pkg_resources/__init__.py",
+    "lib/python3.6/site-packages/pkg_resources/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/__pycache__/py2_warn.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/__pycache__/py31compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/__init__.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/appdirs.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/pyparsing.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/six.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__about__.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__init__.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/__about__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/_compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/_structures.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/markers.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/requirements.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/utils.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/version.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_compat.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_structures.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/markers.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/requirements.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/specifiers.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/utils.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/version.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py",
+    "lib/python3.6/site-packages/pkg_resources/_vendor/six.py",
+    "lib/python3.6/site-packages/pkg_resources/extern/__init__.py",
+    "lib/python3.6/site-packages/pkg_resources/extern/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pkg_resources/py2_warn.py",
+    "lib/python3.6/site-packages/pkg_resources/py31compat.py",
+    "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/zip-safe",
+    "lib/python3.6/site-packages/setuptools/__init__.py",
+    "lib/python3.6/site-packages/setuptools/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/_deprecation_warning.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/_imp.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/archive_util.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/build_meta.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/config.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/dep_util.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/depends.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/dist.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/errors.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/extension.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/glob.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/installer.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/launch.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/lib2to3_ex.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/monkey.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/msvc.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/namespaces.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/package_index.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/py27compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/py31compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/py33compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/py34compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/sandbox.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/site-patch.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/ssl_support.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/unicode_utils.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/version.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/wheel.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/__pycache__/windows_support.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_deprecation_warning.py",
+    "lib/python3.6/site-packages/setuptools/_imp.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/__init__.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/__pycache__/ordered_set.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/__pycache__/pyparsing.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/__pycache__/six.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/ordered_set.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__about__.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__init__.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/__about__.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/_compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/_structures.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/markers.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/requirements.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/tags.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/utils.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/version.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/_compat.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/_structures.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/markers.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/requirements.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/specifiers.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/tags.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/utils.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/packaging/version.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/pyparsing.py",
+    "lib/python3.6/site-packages/setuptools/_vendor/six.py",
+    "lib/python3.6/site-packages/setuptools/archive_util.py",
+    "lib/python3.6/site-packages/setuptools/build_meta.py",
+    "lib/python3.6/site-packages/setuptools/cli-32.exe",
+    "lib/python3.6/site-packages/setuptools/cli-64.exe",
+    "lib/python3.6/site-packages/setuptools/cli.exe",
+    "lib/python3.6/site-packages/setuptools/command/__init__.py",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/alias.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/bdist_egg.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/bdist_rpm.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/bdist_wininst.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/build_clib.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/build_ext.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/build_py.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/develop.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/dist_info.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/easy_install.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/egg_info.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/install.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/install_egg_info.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/install_lib.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/install_scripts.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/py36compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/register.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/rotate.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/saveopts.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/sdist.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/setopt.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/test.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/upload.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/__pycache__/upload_docs.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/command/alias.py",
+    "lib/python3.6/site-packages/setuptools/command/bdist_egg.py",
+    "lib/python3.6/site-packages/setuptools/command/bdist_rpm.py",
+    "lib/python3.6/site-packages/setuptools/command/bdist_wininst.py",
+    "lib/python3.6/site-packages/setuptools/command/build_clib.py",
+    "lib/python3.6/site-packages/setuptools/command/build_ext.py",
+    "lib/python3.6/site-packages/setuptools/command/build_py.py",
+    "lib/python3.6/site-packages/setuptools/command/develop.py",
+    "lib/python3.6/site-packages/setuptools/command/dist_info.py",
+    "lib/python3.6/site-packages/setuptools/command/easy_install.py",
+    "lib/python3.6/site-packages/setuptools/command/egg_info.py",
+    "lib/python3.6/site-packages/setuptools/command/install.py",
+    "lib/python3.6/site-packages/setuptools/command/install_egg_info.py",
+    "lib/python3.6/site-packages/setuptools/command/install_lib.py",
+    "lib/python3.6/site-packages/setuptools/command/install_scripts.py",
+    "lib/python3.6/site-packages/setuptools/command/launcher manifest.xml",
+    "lib/python3.6/site-packages/setuptools/command/py36compat.py",
+    "lib/python3.6/site-packages/setuptools/command/register.py",
+    "lib/python3.6/site-packages/setuptools/command/rotate.py",
+    "lib/python3.6/site-packages/setuptools/command/saveopts.py",
+    "lib/python3.6/site-packages/setuptools/command/sdist.py",
+    "lib/python3.6/site-packages/setuptools/command/setopt.py",
+    "lib/python3.6/site-packages/setuptools/command/test.py",
+    "lib/python3.6/site-packages/setuptools/command/upload.py",
+    "lib/python3.6/site-packages/setuptools/command/upload_docs.py",
+    "lib/python3.6/site-packages/setuptools/config.py",
+    "lib/python3.6/site-packages/setuptools/dep_util.py",
+    "lib/python3.6/site-packages/setuptools/depends.py",
+    "lib/python3.6/site-packages/setuptools/dist.py",
+    "lib/python3.6/site-packages/setuptools/errors.py",
+    "lib/python3.6/site-packages/setuptools/extension.py",
+    "lib/python3.6/site-packages/setuptools/extern/__init__.py",
+    "lib/python3.6/site-packages/setuptools/extern/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/setuptools/glob.py",
+    "lib/python3.6/site-packages/setuptools/gui-32.exe",
+    "lib/python3.6/site-packages/setuptools/gui-64.exe",
+    "lib/python3.6/site-packages/setuptools/gui.exe",
+    "lib/python3.6/site-packages/setuptools/installer.py",
+    "lib/python3.6/site-packages/setuptools/launch.py",
+    "lib/python3.6/site-packages/setuptools/lib2to3_ex.py",
+    "lib/python3.6/site-packages/setuptools/monkey.py",
+    "lib/python3.6/site-packages/setuptools/msvc.py",
+    "lib/python3.6/site-packages/setuptools/namespaces.py",
+    "lib/python3.6/site-packages/setuptools/package_index.py",
+    "lib/python3.6/site-packages/setuptools/py27compat.py",
+    "lib/python3.6/site-packages/setuptools/py31compat.py",
+    "lib/python3.6/site-packages/setuptools/py33compat.py",
+    "lib/python3.6/site-packages/setuptools/py34compat.py",
+    "lib/python3.6/site-packages/setuptools/sandbox.py",
+    "lib/python3.6/site-packages/setuptools/script (dev).tmpl",
+    "lib/python3.6/site-packages/setuptools/script.tmpl",
+    "lib/python3.6/site-packages/setuptools/site-patch.py",
+    "lib/python3.6/site-packages/setuptools/ssl_support.py",
+    "lib/python3.6/site-packages/setuptools/unicode_utils.py",
+    "lib/python3.6/site-packages/setuptools/version.py",
+    "lib/python3.6/site-packages/setuptools/wheel.py",
+    "lib/python3.6/site-packages/setuptools/windows_support.py"
+  ],
+  "fn": "setuptools-45.2.0-py36_0.conda",
+  "legacy_bz2_md5": "8660ee98767a3d853a22ca95c38f50f0",
+  "legacy_bz2_size": 674764,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/sri/anaconda3/pkgs/setuptools-45.2.0-py36_0",
+    "type": 1
+  },
+  "md5": "df473701ce1777d262d147af8caf0cba",
+  "name": "setuptools",
+  "package_tarball_full_path": "/home/sri/anaconda3/pkgs/setuptools-45.2.0-py36_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/easy_install",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "7d8cb796688b07706383f874a0981d7b548c0dadd2e8c3a06b550678eb1b6b85",
+        "sha256_in_prefix": "809d2c5e77ff4404327cde1459188dfff04ae97a0433bee6d9ddd368325125fd",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/easy_install.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "81e7433f302a288b5907c3e7f83d8669bfd094448f83b0c211dfafd50403ef3b",
+        "sha256_in_prefix": "81e7433f302a288b5907c3e7f83d8669bfd094448f83b0c211dfafd50403ef3b",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "lib/python3.6/site-packages/easy_install.py",
+        "path_type": "hardlink",
+        "sha256": "3030bdbede40c43b175f9a9c2a5073d939d6e93a6ebff0286e77e1089f57dcf3",
+        "sha256_in_prefix": "3030bdbede40c43b175f9a9c2a5073d939d6e93a6ebff0286e77e1089f57dcf3",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ec1530e5ed9b65c5687e67b1930b576b8d4c86ecd71ab3f72854ee209b54c97f",
+        "sha256_in_prefix": "ec1530e5ed9b65c5687e67b1930b576b8d4c86ecd71ab3f72854ee209b54c97f",
+        "size_in_bytes": 108396
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "259479ef6758cb482b574a009acd19fa49365800ec43d3c3351762b977cef98d",
+        "sha256_in_prefix": "259479ef6758cb482b574a009acd19fa49365800ec43d3c3351762b977cef98d",
+        "size_in_bytes": 99807
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/__pycache__/py2_warn.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc4298fbcabbfcd9843b9a14bc30787e053b5f8b11058ea116e56645911bf23f",
+        "sha256_in_prefix": "fc4298fbcabbfcd9843b9a14bc30787e053b5f8b11058ea116e56645911bf23f",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/__pycache__/py31compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f12659b3f0cc7b48866caa15b08d9ac05692663e0d08d4bbc552e6f2c3416337",
+        "sha256_in_prefix": "f12659b3f0cc7b48866caa15b08d9ac05692663e0d08d4bbc552e6f2c3416337",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "56a91fdd0491e473e9ce0ba8aa65549a495ed69255e391baf653399bdfa9a391",
+        "sha256_in_prefix": "56a91fdd0491e473e9ce0ba8aa65549a495ed69255e391baf653399bdfa9a391",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/appdirs.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f08b1a5971d754898eef3f7344ea74cdb6143ef22b54889c47098a31eb29958",
+        "sha256_in_prefix": "0f08b1a5971d754898eef3f7344ea74cdb6143ef22b54889c47098a31eb29958",
+        "size_in_bytes": 20682
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/pyparsing.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "bef12786db59ca142667a2dd9928b831e8b0d996c154184a168d9d964632fd8d",
+        "sha256_in_prefix": "bef12786db59ca142667a2dd9928b831e8b0d996c154184a168d9d964632fd8d",
+        "size_in_bytes": 203153
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/__pycache__/six.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ac3b481e08bcc077625be1fc49adc3680ba4bc8420071ce0845476b4ecc8784",
+        "sha256_in_prefix": "3ac3b481e08bcc077625be1fc49adc3680ba4bc8420071ce0845476b4ecc8784",
+        "size_in_bytes": 24441
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/appdirs.py",
+        "path_type": "hardlink",
+        "sha256": "3227af504bafde5fe6408487e52174b210e4fc13611c7cd88803eb4f72133782",
+        "sha256_in_prefix": "3227af504bafde5fe6408487e52174b210e4fc13611c7cd88803eb4f72133782",
+        "size_in_bytes": 24701
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "ce47023d337fe9370b5b436b960d35efaf91d5043f5953d39bcb33d51e3e1e33",
+        "sha256_in_prefix": "ce47023d337fe9370b5b436b960d35efaf91d5043f5953d39bcb33d51e3e1e33",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fef35a7394ebcf0b2bcdb38521b17ee5c1ea73f63668f4f60fbceb211d3a04ea",
+        "sha256_in_prefix": "fef35a7394ebcf0b2bcdb38521b17ee5c1ea73f63668f4f60fbceb211d3a04ea",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/__about__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "aeafdbafd7db176e0e1e3a15b5fee285140a5d17ef5fead486edd74fca4a9b1e",
+        "sha256_in_prefix": "aeafdbafd7db176e0e1e3a15b5fee285140a5d17ef5fead486edd74fca4a9b1e",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a6adbd9533b2b59c800d56d4f704e4e59ab8c954d73a2d8e6a88777c46fc142",
+        "sha256_in_prefix": "9a6adbd9533b2b59c800d56d4f704e4e59ab8c954d73a2d8e6a88777c46fc142",
+        "size_in_bytes": 518
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/_compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9909e44b7a0ee23fa55845d8c3f611fbca07db1870e0a1a49a105c2e1ddc419b",
+        "sha256_in_prefix": "9909e44b7a0ee23fa55845d8c3f611fbca07db1870e0a1a49a105c2e1ddc419b",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/_structures.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "23999c00ff8f59b3011d2e721c5b0719e1ac3938ea821d644506f5ca10312dab",
+        "sha256_in_prefix": "23999c00ff8f59b3011d2e721c5b0719e1ac3938ea821d644506f5ca10312dab",
+        "size_in_bytes": 2822
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/markers.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5aaf9b73b9b8ba7ac2a2a33b59bb837012fb561f94f47b76ecb64598f494d076",
+        "sha256_in_prefix": "5aaf9b73b9b8ba7ac2a2a33b59bb837012fb561f94f47b76ecb64598f494d076",
+        "size_in_bytes": 8845
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/requirements.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e47a5f2fc745a7304c1b86d99b601c12797ee79a1c08149a910eb6a3339c5f93",
+        "sha256_in_prefix": "e47a5f2fc745a7304c1b86d99b601c12797ee79a1c08149a910eb6a3339c5f93",
+        "size_in_bytes": 3841
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "40429c5a968b094903cb2e1da29bc98f00b63d10f713b51734c7dc7de278fc9e",
+        "sha256_in_prefix": "40429c5a968b094903cb2e1da29bc98f00b63d10f713b51734c7dc7de278fc9e",
+        "size_in_bytes": 19784
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/utils.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b43b6989aea3e1ab0a931436e53833c3156d77dc14e01af36efd19739fa3820",
+        "sha256_in_prefix": "2b43b6989aea3e1ab0a931436e53833c3156d77dc14e01af36efd19739fa3820",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/__pycache__/version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "06d6d1c9dbad44aa6aae611cbbc2c1154c3457b4fbeace371a2ceb2223f87896",
+        "sha256_in_prefix": "06d6d1c9dbad44aa6aae611cbbc2c1154c3457b4fbeace371a2ceb2223f87896",
+        "size_in_bytes": 10559
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "562fc0d2b0107876d4f9af57d2db75c909bd46a92041b0d2c73470f16954f640",
+        "sha256_in_prefix": "562fc0d2b0107876d4f9af57d2db75c909bd46a92041b0d2c73470f16954f640",
+        "size_in_bytes": 860
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/_structures.py",
+        "path_type": "hardlink",
+        "sha256": "448984089e1cff04e5693618c1960b1c489e6c331a00998ad683c0461c354f9a",
+        "sha256_in_prefix": "448984089e1cff04e5693618c1960b1c489e6c331a00998ad683c0461c354f9a",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/markers.py",
+        "path_type": "hardlink",
+        "sha256": "b8470106d1afcea96d82702ba9bf5ce11adc2275decc32e8b35e336c11e1589a",
+        "sha256_in_prefix": "b8470106d1afcea96d82702ba9bf5ce11adc2275decc32e8b35e336c11e1589a",
+        "size_in_bytes": 8248
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/requirements.py",
+        "path_type": "hardlink",
+        "sha256": "4a290bd94ca76ec4f4aad63d96daa78277616bfb1fa34c3a5c6161021a12a1a4",
+        "sha256_in_prefix": "4a290bd94ca76ec4f4aad63d96daa78277616bfb1fa34c3a5c6161021a12a1a4",
+        "size_in_bytes": 4355
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/specifiers.py",
+        "path_type": "hardlink",
+        "sha256": "4803117abcceddf2b622415909a664bb065a2ff106a8734ecf8a678b8be19cdd",
+        "sha256_in_prefix": "4803117abcceddf2b622415909a664bb065a2ff106a8734ecf8a678b8be19cdd",
+        "size_in_bytes": 28025
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/utils.py",
+        "path_type": "hardlink",
+        "sha256": "de6e96bcf9ba34dc44f2b9131a69f4afbe41fc66521a0ee291a7f11ec04dd560",
+        "sha256_in_prefix": "de6e96bcf9ba34dc44f2b9131a69f4afbe41fc66521a0ee291a7f11ec04dd560",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/packaging/version.py",
+        "path_type": "hardlink",
+        "sha256": "3b01a7c587ebda084dcd8c79f6a588064acadd29c1ea7f997ddd5768ba679ccd",
+        "sha256_in_prefix": "3b01a7c587ebda084dcd8c79f6a588064acadd29c1ea7f997ddd5768ba679ccd",
+        "size_in_bytes": 11556
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/pyparsing.py",
+        "path_type": "hardlink",
+        "sha256": "b66ae9fa5bbea8ed62ef967320de40d769ca4510f50a6e15a64fb92d1f6b8a6b",
+        "sha256_in_prefix": "b66ae9fa5bbea8ed62ef967320de40d769ca4510f50a6e15a64fb92d1f6b8a6b",
+        "size_in_bytes": 232055
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/_vendor/six.py",
+        "path_type": "hardlink",
+        "sha256": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "sha256_in_prefix": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "size_in_bytes": 30098
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/extern/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7078847c7b8b9a6eabb3955eff3b417cc23b2ebdf5becb3e0f8c24a85e71ce52",
+        "sha256_in_prefix": "7078847c7b8b9a6eabb3955eff3b417cc23b2ebdf5becb3e0f8c24a85e71ce52",
+        "size_in_bytes": 2498
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/extern/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "061792077b0a18db85a35eb860f40911580e3f826cea901f1af4847b5aa4cffc",
+        "sha256_in_prefix": "061792077b0a18db85a35eb860f40911580e3f826cea901f1af4847b5aa4cffc",
+        "size_in_bytes": 2379
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/py2_warn.py",
+        "path_type": "hardlink",
+        "sha256": "77187b569ffae5d9e957357e32d76c42cc6a92c8010fa08aa5d6b69d902db62d",
+        "sha256_in_prefix": "77187b569ffae5d9e957357e32d76c42cc6a92c8010fa08aa5d6b69d902db62d",
+        "size_in_bytes": 723
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pkg_resources/py31compat.py",
+        "path_type": "hardlink",
+        "sha256": "f964347b8737446fda71d8700b780b89784ffe58381b9abb5d89199108348315",
+        "sha256_in_prefix": "f964347b8737446fda71d8700b780b89784ffe58381b9abb5d89199108348315",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "256605d2920c10029259bbaeab873d8a5327e9b10b525e9cbd54b1f6277ccf96",
+        "sha256_in_prefix": "256605d2920c10029259bbaeab873d8a5327e9b10b525e9cbd54b1f6277ccf96",
+        "size_in_bytes": 3958
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "867157b4d886990eacb1ba8ff385c63a7390ea20eafab3bd0d3aafa69b2d3770",
+        "sha256_in_prefix": "867157b4d886990eacb1ba8ff385c63a7390ea20eafab3bd0d3aafa69b2d3770",
+        "size_in_bytes": 6096
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "66622a969f9205db014b672e7ad994d8d7523ace031b493172d511f5427c5e4d",
+        "sha256_in_prefix": "66622a969f9205db014b672e7ad994d8d7523ace031b493172d511f5427c5e4d",
+        "size_in_bytes": 3150
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "e4531b09932cebe96cd7c771477508cc500ec73cf1e94d67fbc788942e018ce5",
+        "sha256_in_prefix": "e4531b09932cebe96cd7c771477508cc500ec73cf1e94d67fbc788942e018ce5",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d87517555c00e0f7dfd7181316bdc6b135d729a3da3babe51baa0d27fe2ee138",
+        "sha256_in_prefix": "d87517555c00e0f7dfd7181316bdc6b135d729a3da3babe51baa0d27fe2ee138",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools-45.2.0.post20200210-py3.6.egg-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "395f29cc8e16e2e89caa267d89779305dcf1baf5e9a910c6e232d9b68c0305fc",
+        "sha256_in_prefix": "395f29cc8e16e2e89caa267d89779305dcf1baf5e9a910c6e232d9b68c0305fc",
+        "size_in_bytes": 7273
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "203c8adc4030bbd52d265a5bd2ae77d853184ca74d7c21c32670335e2d7f9806",
+        "sha256_in_prefix": "203c8adc4030bbd52d265a5bd2ae77d853184ca74d7c21c32670335e2d7f9806",
+        "size_in_bytes": 7633
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/_deprecation_warning.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e06d065355cbaabffc7d46c742fabff0cdb4007b09d7a6732d6c398e6ffa7a10",
+        "sha256_in_prefix": "e06d065355cbaabffc7d46c742fabff0cdb4007b09d7a6732d6c398e6ffa7a10",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/_imp.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3018344b7b320686a2c83fe4d5e210fe17dcb7cc40aa35dadbd3572132a90e7",
+        "sha256_in_prefix": "e3018344b7b320686a2c83fe4d5e210fe17dcb7cc40aa35dadbd3572132a90e7",
+        "size_in_bytes": 2039
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/archive_util.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2152462818f37bec37a1cb0790075a68b134d83be9164cd45699d870adb177e",
+        "sha256_in_prefix": "a2152462818f37bec37a1cb0790075a68b134d83be9164cd45699d870adb177e",
+        "size_in_bytes": 5089
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/build_meta.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ca666e453db1138cfbb61fa2151d687223f68e80c0f314cf11ef95d8b1a424f",
+        "sha256_in_prefix": "5ca666e453db1138cfbb61fa2151d687223f68e80c0f314cf11ef95d8b1a424f",
+        "size_in_bytes": 8489
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "66e1edba6d001dd1e432fd337093f899c88577aefd731939178028a7e1019341",
+        "sha256_in_prefix": "66e1edba6d001dd1e432fd337093f899c88577aefd731939178028a7e1019341",
+        "size_in_bytes": 17783
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/dep_util.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "cde2e454df880af9fb348218c49b424e7cfca8d683dbf34e4f73874cef0cad0e",
+        "sha256_in_prefix": "cde2e454df880af9fb348218c49b424e7cfca8d683dbf34e4f73874cef0cad0e",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/depends.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "95259cdd2e2891acf08ef7ab20b1f977d9348bbf5eb5ae9328343b72fb3e1d32",
+        "sha256_in_prefix": "95259cdd2e2891acf08ef7ab20b1f977d9348bbf5eb5ae9328343b72fb3e1d32",
+        "size_in_bytes": 5142
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/dist.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b42199ae97b7c21d6bf33005105b259977856aab64ba243bc1f1c37bce72b0fd",
+        "sha256_in_prefix": "b42199ae97b7c21d6bf33005105b259977856aab64ba243bc1f1c37bce72b0fd",
+        "size_in_bytes": 42395
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/errors.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6640cb4e4b340260a9572cc7908c49432aeabac325bd02572d601e7aeb1b8b72",
+        "sha256_in_prefix": "6640cb4e4b340260a9572cc7908c49432aeabac325bd02572d601e7aeb1b8b72",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/extension.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7244430d0cd87eccdf4ac43564d1a576682ce38516e8ea6e3d56e901582aa078",
+        "sha256_in_prefix": "7244430d0cd87eccdf4ac43564d1a576682ce38516e8ea6e3d56e901582aa078",
+        "size_in_bytes": 1926
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/glob.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "67f26ec8edbf5b0b98c80f01e73402a1d4a9dac7eb7b1029426d3abdee9e437a",
+        "sha256_in_prefix": "67f26ec8edbf5b0b98c80f01e73402a1d4a9dac7eb7b1029426d3abdee9e437a",
+        "size_in_bytes": 3703
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/installer.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "33e6edf8ddfdd99d48657229fc635bd3069c7ee1b5aba6446c492f64d588359f",
+        "sha256_in_prefix": "33e6edf8ddfdd99d48657229fc635bd3069c7ee1b5aba6446c492f64d588359f",
+        "size_in_bytes": 4046
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/launch.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "872fa25e2f56e7965aae98c4256d2fc1433ea56e019a96b464b41ef2786ff40b",
+        "sha256_in_prefix": "872fa25e2f56e7965aae98c4256d2fc1433ea56e019a96b464b41ef2786ff40b",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/lib2to3_ex.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "120f774783a3059eecb25899b817e8c47673b7672ca79b372cee44f69fdfc479",
+        "sha256_in_prefix": "120f774783a3059eecb25899b817e8c47673b7672ca79b372cee44f69fdfc479",
+        "size_in_bytes": 2384
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/monkey.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "68fe5ed04c93addbb1030716f4658cf54a6c08f90436099347ba56a0ac40fb52",
+        "sha256_in_prefix": "68fe5ed04c93addbb1030716f4658cf54a6c08f90436099347ba56a0ac40fb52",
+        "size_in_bytes": 4652
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/msvc.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "dba3a0c8e99b3adce660ec658a75dc9250dff65e4d41e3071b61057abe9d5cda",
+        "sha256_in_prefix": "dba3a0c8e99b3adce660ec658a75dc9250dff65e4d41e3071b61057abe9d5cda",
+        "size_in_bytes": 39639
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/namespaces.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb751d775edd5ea94b7d0d63c273953ceb3afa1b8987f62e910dcd9252615046",
+        "sha256_in_prefix": "cb751d775edd5ea94b7d0d63c273953ceb3afa1b8987f62e910dcd9252615046",
+        "size_in_bytes": 3629
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/package_index.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "155c57e5117df4b12998974c16e6f7c25e705cdf8a174fc2cec9e37ad5954e73",
+        "sha256_in_prefix": "155c57e5117df4b12998974c16e6f7c25e705cdf8a174fc2cec9e37ad5954e73",
+        "size_in_bytes": 32974
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/py27compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "799bbd6925612b23893e8b9004c390034c0f6f60c2101b79853ba922993a6294",
+        "sha256_in_prefix": "799bbd6925612b23893e8b9004c390034c0f6f60c2101b79853ba922993a6294",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/py31compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a1e33033ede0798454d684d5ac783be5a5d086b9ddac133678490f744dd9c806",
+        "sha256_in_prefix": "a1e33033ede0798454d684d5ac783be5a5d086b9ddac133678490f744dd9c806",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/py33compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0b756d8c6408bf01a022e2ebaeb3f3243bc4921fe98cd20437b0e1d7301306f",
+        "sha256_in_prefix": "d0b756d8c6408bf01a022e2ebaeb3f3243bc4921fe98cd20437b0e1d7301306f",
+        "size_in_bytes": 1387
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/py34compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0729ab2b83492dd608974314e2228d54995e00cef6a242a057ed67e72126295",
+        "sha256_in_prefix": "c0729ab2b83492dd608974314e2228d54995e00cef6a242a057ed67e72126295",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/sandbox.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "25fdf312d84480dc2e1fe4b99bb45e193625df910bb94823592695da43b96607",
+        "sha256_in_prefix": "25fdf312d84480dc2e1fe4b99bb45e193625df910bb94823592695da43b96607",
+        "size_in_bytes": 15676
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/site-patch.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "10c98c8a60e1f7bd7049ac74536187490063e674b1d357b1b8ad261f5cd0d295",
+        "sha256_in_prefix": "10c98c8a60e1f7bd7049ac74536187490063e674b1d357b1b8ad261f5cd0d295",
+        "size_in_bytes": 1459
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/ssl_support.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c2341b1938ba8171b1fa1943547f267445030ddaa81b6813145b1a39c8d3e4b",
+        "sha256_in_prefix": "8c2341b1938ba8171b1fa1943547f267445030ddaa81b6813145b1a39c8d3e4b",
+        "size_in_bytes": 6748
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/unicode_utils.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d74901f6c412c78143d6a67d5fa49bb34f2a9d7c0116231dee7fa000aa4d4af",
+        "sha256_in_prefix": "0d74901f6c412c78143d6a67d5fa49bb34f2a9d7c0116231dee7fa000aa4d4af",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3dace30a384b8b8f6cd83d58822d6ca1c0942e0ad9ea7c874e45fa852c504972",
+        "sha256_in_prefix": "3dace30a384b8b8f6cd83d58822d6ca1c0942e0ad9ea7c874e45fa852c504972",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/wheel.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "89973ca26e13b27d60e6d0afa2696df2cc71b474309f22a75b7551e9ee659169",
+        "sha256_in_prefix": "89973ca26e13b27d60e6d0afa2696df2cc71b474309f22a75b7551e9ee659169",
+        "size_in_bytes": 7284
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/__pycache__/windows_support.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb7cd3f19bfcbfdc95219833431ab70ec76e1b8610035d4ba21275be6b741999",
+        "sha256_in_prefix": "eb7cd3f19bfcbfdc95219833431ab70ec76e1b8610035d4ba21275be6b741999",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_deprecation_warning.py",
+        "path_type": "hardlink",
+        "sha256": "8d4f7e76d7efe9c2a6b5024e5cdf273f59a6ee038dc3990a12d88fb5bc276722",
+        "sha256_in_prefix": "8d4f7e76d7efe9c2a6b5024e5cdf273f59a6ee038dc3990a12d88fb5bc276722",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_imp.py",
+        "path_type": "hardlink",
+        "sha256": "431d0b27310169693fe8f7c809a989b5f04ddab8792bdb09ab5c17bed656fa67",
+        "sha256_in_prefix": "431d0b27310169693fe8f7c809a989b5f04ddab8792bdb09ab5c17bed656fa67",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8396768e6cfccc8b8cff634e4ea5ab6f44f2f430f96a64cb99ee0dddbeba170a",
+        "sha256_in_prefix": "8396768e6cfccc8b8cff634e4ea5ab6f44f2f430f96a64cb99ee0dddbeba170a",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/__pycache__/ordered_set.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a735b563f74a732a8025bebf9c115b1cdfc73cbe19c8bca1e338f05e49b3dfe8",
+        "sha256_in_prefix": "a735b563f74a732a8025bebf9c115b1cdfc73cbe19c8bca1e338f05e49b3dfe8",
+        "size_in_bytes": 16371
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/__pycache__/pyparsing.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "54b57ed800a19c6cdc9ce6399ca89a322af7aa871350a8b21ec85495b054b40d",
+        "sha256_in_prefix": "54b57ed800a19c6cdc9ce6399ca89a322af7aa871350a8b21ec85495b054b40d",
+        "size_in_bytes": 203150
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/__pycache__/six.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d816dd9b4b1d4c0666c63517a7d3aa6460df1f5404d1155691b86c23c3f1228",
+        "sha256_in_prefix": "0d816dd9b4b1d4c0666c63517a7d3aa6460df1f5404d1155691b86c23c3f1228",
+        "size_in_bytes": 24438
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/ordered_set.py",
+        "path_type": "hardlink",
+        "sha256": "75b68272cdbb77237d827316185e6703f06b567e90f8dae329826957dfdf801b",
+        "sha256_in_prefix": "75b68272cdbb77237d827316185e6703f06b567e90f8dae329826957dfdf801b",
+        "size_in_bytes": 15130
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "0a9b8c4b287557b69dc3c40c8d62a46372ed76a4549115f832027a9c5e2cb4cd",
+        "sha256_in_prefix": "0a9b8c4b287557b69dc3c40c8d62a46372ed76a4549115f832027a9c5e2cb4cd",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e9e9dba795e045f8c18ec23df9b9f4d078c77f94c7db53c330e2a4256f31c3ec",
+        "sha256_in_prefix": "e9e9dba795e045f8c18ec23df9b9f4d078c77f94c7db53c330e2a4256f31c3ec",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/__about__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c0d6927c3e31e35e2c2f8680018d8cf6dc64b7cb254507b1260362b570a0863",
+        "sha256_in_prefix": "4c0d6927c3e31e35e2c2f8680018d8cf6dc64b7cb254507b1260362b570a0863",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a82bd8db76ce44b969205c8c97631f9b210adc7fe416c813fe7cd000836fc557",
+        "sha256_in_prefix": "a82bd8db76ce44b969205c8c97631f9b210adc7fe416c813fe7cd000836fc557",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/_compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "26b2fb22d5df3d9649fe0ecfc0f125cdb02b8c0346703d12e6c2786e050ac5f0",
+        "sha256_in_prefix": "26b2fb22d5df3d9649fe0ecfc0f125cdb02b8c0346703d12e6c2786e050ac5f0",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/_structures.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b3b675ff5b425c403cbe13096fa707e533eb7cf4ec8c163c32694f58001c4dc",
+        "sha256_in_prefix": "9b3b675ff5b425c403cbe13096fa707e533eb7cf4ec8c163c32694f58001c4dc",
+        "size_in_bytes": 2819
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/markers.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "41158e0b1b4d53d95ea1ef034fea2da32362f0ff085334e2bc7179de44264c9f",
+        "sha256_in_prefix": "41158e0b1b4d53d95ea1ef034fea2da32362f0ff085334e2bc7179de44264c9f",
+        "size_in_bytes": 8879
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/requirements.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2eefaa6c343425c0bacfb275674657310b88a4c789180ed5feb9f389586a3295",
+        "sha256_in_prefix": "2eefaa6c343425c0bacfb275674657310b88a4c789180ed5feb9f389586a3295",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa5b5d3e51270e2c4258542cd69ae0e3bed833bb7f8eefa27ec6dd8100c83ce2",
+        "sha256_in_prefix": "fa5b5d3e51270e2c4258542cd69ae0e3bed833bb7f8eefa27ec6dd8100c83ce2",
+        "size_in_bytes": 19753
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/tags.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "246a96bb5437c4bc39044ea375c130f7cc7a4400108aa389cd0690a61de57e09",
+        "sha256_in_prefix": "246a96bb5437c4bc39044ea375c130f7cc7a4400108aa389cd0690a61de57e09",
+        "size_in_bytes": 10909
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/utils.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "91458267b765b1f9f475bb8d577b1c8cab7f0c241814f73e1dcd87f7d73cfd51",
+        "sha256_in_prefix": "91458267b765b1f9f475bb8d577b1c8cab7f0c241814f73e1dcd87f7d73cfd51",
+        "size_in_bytes": 1405
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/__pycache__/version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d69a829a3127d6045dad0953cc33a9f5d702871c1e75889c6a4fcbefc4f2647",
+        "sha256_in_prefix": "7d69a829a3127d6045dad0953cc33a9f5d702871c1e75889c6a4fcbefc4f2647",
+        "size_in_bytes": 11958
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "520766faa7277927215b6e49aed3082a05317c4101702033e96ac47977aacfda",
+        "sha256_in_prefix": "520766faa7277927215b6e49aed3082a05317c4101702033e96ac47977aacfda",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/_structures.py",
+        "path_type": "hardlink",
+        "sha256": "a5577dd17717446c2965107fa9d16e54489b8421e95ff6cbe7362bf7e37499cf",
+        "sha256_in_prefix": "a5577dd17717446c2965107fa9d16e54489b8421e95ff6cbe7362bf7e37499cf",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/markers.py",
+        "path_type": "hardlink",
+        "sha256": "fa678597d16bf55f2b17945dbb381eb6de441caf70058454aacb00576a63d25c",
+        "sha256_in_prefix": "fa678597d16bf55f2b17945dbb381eb6de441caf70058454aacb00576a63d25c",
+        "size_in_bytes": 8268
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/requirements.py",
+        "path_type": "hardlink",
+        "sha256": "dddc0825e92df114460946e0c57f2b79e01b8266588dbd3070246d987eb79312",
+        "sha256_in_prefix": "dddc0825e92df114460946e0c57f2b79e01b8266588dbd3070246d987eb79312",
+        "size_in_bytes": 4742
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/specifiers.py",
+        "path_type": "hardlink",
+        "sha256": "d19cd0a5c527beb43a2e347e99044bcccafc1ba85d46ffa66345527ff6a616d2",
+        "sha256_in_prefix": "d19cd0a5c527beb43a2e347e99044bcccafc1ba85d46ffa66345527ff6a616d2",
+        "size_in_bytes": 27778
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/tags.py",
+        "path_type": "hardlink",
+        "sha256": "10f2d784ee864c3effa225843b55349743e47d1f11ff18afa4c0c75e7b1396db",
+        "sha256_in_prefix": "10f2d784ee864c3effa225843b55349743e47d1f11ff18afa4c0c75e7b1396db",
+        "size_in_bytes": 12933
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/utils.py",
+        "path_type": "hardlink",
+        "sha256": "55a4c2d048bbccedb197d0118969b3d9814b16df3d3eeba12db0255ccc801a6b",
+        "sha256_in_prefix": "55a4c2d048bbccedb197d0118969b3d9814b16df3d3eeba12db0255ccc801a6b",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/packaging/version.py",
+        "path_type": "hardlink",
+        "sha256": "3697709dbf0e1de763ff62fceb2894aac72e8dbef0fe2e609922b53e13801738",
+        "sha256_in_prefix": "3697709dbf0e1de763ff62fceb2894aac72e8dbef0fe2e609922b53e13801738",
+        "size_in_bytes": 11978
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/pyparsing.py",
+        "path_type": "hardlink",
+        "sha256": "b66ae9fa5bbea8ed62ef967320de40d769ca4510f50a6e15a64fb92d1f6b8a6b",
+        "sha256_in_prefix": "b66ae9fa5bbea8ed62ef967320de40d769ca4510f50a6e15a64fb92d1f6b8a6b",
+        "size_in_bytes": 232055
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/_vendor/six.py",
+        "path_type": "hardlink",
+        "sha256": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "sha256_in_prefix": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "size_in_bytes": 30098
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/archive_util.py",
+        "path_type": "hardlink",
+        "sha256": "d95a9205aa11a26780d9a97e8589f207edf77a13f87b1ae49e964dcbba968a7d",
+        "sha256_in_prefix": "d95a9205aa11a26780d9a97e8589f207edf77a13f87b1ae49e964dcbba968a7d",
+        "size_in_bytes": 6626
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/build_meta.py",
+        "path_type": "hardlink",
+        "sha256": "9f7fb71c5d2e29f140ccd3f4db2cf657bab5c9d94f690d5bfc8c471b7df25a35",
+        "sha256_in_prefix": "9f7fb71c5d2e29f140ccd3f4db2cf657bab5c9d94f690d5bfc8c471b7df25a35",
+        "size_in_bytes": 9960
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/cli-32.exe",
+        "path_type": "hardlink",
+        "sha256": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "sha256_in_prefix": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/cli-64.exe",
+        "path_type": "hardlink",
+        "sha256": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+        "sha256_in_prefix": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+        "size_in_bytes": 74752
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/cli.exe",
+        "path_type": "hardlink",
+        "sha256": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "sha256_in_prefix": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "40202e03dc219eaf019e87346c1692e8bc3f28050ed0388761941710c367e618",
+        "sha256_in_prefix": "40202e03dc219eaf019e87346c1692e8bc3f28050ed0388761941710c367e618",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d10ad4e019ccd3b4523fa642a9522d9612d2a2bc1980c26b7c3fc096dcae8cf0",
+        "sha256_in_prefix": "d10ad4e019ccd3b4523fa642a9522d9612d2a2bc1980c26b7c3fc096dcae8cf0",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/alias.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8cb77e89827f78dad0412cebfb9a6112545129939d188c4ca9d8fd8d697c1a5",
+        "sha256_in_prefix": "b8cb77e89827f78dad0412cebfb9a6112545129939d188c4ca9d8fd8d697c1a5",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/bdist_egg.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3368f6e19399deb43a36a032fa7822e2e5c0af86a71ab6d1f0b25d3fd978a4b8",
+        "sha256_in_prefix": "3368f6e19399deb43a36a032fa7822e2e5c0af86a71ab6d1f0b25d3fd978a4b8",
+        "size_in_bytes": 14364
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/bdist_rpm.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "77c06d8682d6fe1b59ab151c2d273309de35d6efd4f76a44a33cb082f23fb52f",
+        "sha256_in_prefix": "77c06d8682d6fe1b59ab151c2d273309de35d6efd4f76a44a33cb082f23fb52f",
+        "size_in_bytes": 1728
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/bdist_wininst.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "965c13b62abc691d7ffcda96245bdcc6864eae056ea22ce07279ac28f1cd0913",
+        "sha256_in_prefix": "965c13b62abc691d7ffcda96245bdcc6864eae056ea22ce07279ac28f1cd0913",
+        "size_in_bytes": 929
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/build_clib.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5289a3b70b003fc2bf585d80cd267240a74be5cf81528b5876cfa6ab4e908e7",
+        "sha256_in_prefix": "b5289a3b70b003fc2bf585d80cd267240a74be5cf81528b5876cfa6ab4e908e7",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/build_ext.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "898cb5d671fa926df0bba1aac4b6112b05b4884b46dd9452ae9dfd84679fd4c3",
+        "sha256_in_prefix": "898cb5d671fa926df0bba1aac4b6112b05b4884b46dd9452ae9dfd84679fd4c3",
+        "size_in_bytes": 9721
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/build_py.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e605fb8ddec61ce014ec2d2ac6176a87858b0547fbebfacba32bf3937c04ad4b",
+        "sha256_in_prefix": "e605fb8ddec61ce014ec2d2ac6176a87858b0547fbebfacba32bf3937c04ad4b",
+        "size_in_bytes": 8524
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/develop.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5d92b6c5e249d795fe1bb0c9f2f85ed86846930a53969c143b8a4c17329dfa5",
+        "sha256_in_prefix": "b5d92b6c5e249d795fe1bb0c9f2f85ed86846930a53969c143b8a4c17329dfa5",
+        "size_in_bytes": 6437
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/dist_info.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b279e4ce9ddd198747297ddba76cdce7e7a7be329d73ecbe15f3f152e5b5ee79",
+        "sha256_in_prefix": "b279e4ce9ddd198747297ddba76cdce7e7a7be329d73ecbe15f3f152e5b5ee79",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/easy_install.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0051e71c603c9c4e056bd979cc54b138b21c00268c3ff348318ee9f26530c25f",
+        "sha256_in_prefix": "0051e71c603c9c4e056bd979cc54b138b21c00268c3ff348318ee9f26530c25f",
+        "size_in_bytes": 65178
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/egg_info.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "10b53865229d533fee830743bdc92a59e946fbfa68c039ca363ae8509c79a539",
+        "sha256_in_prefix": "10b53865229d533fee830743bdc92a59e946fbfa68c039ca363ae8509c79a539",
+        "size_in_bytes": 21495
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/install.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b295100f0e643fcefed3aa6979d7c0646daa2da27fbe7845e6c2a213ac3942d5",
+        "sha256_in_prefix": "b295100f0e643fcefed3aa6979d7c0646daa2da27fbe7845e6c2a213ac3942d5",
+        "size_in_bytes": 3950
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/install_egg_info.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "77d86d5a8d18d22ec334d6c5174b7b1738442ed2b869f3ba0fad3c989150fcff",
+        "sha256_in_prefix": "77d86d5a8d18d22ec334d6c5174b7b1738442ed2b869f3ba0fad3c989150fcff",
+        "size_in_bytes": 2390
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/install_lib.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0554c2fed2ddb7f68587c4e2e52a457eb03cadadf662f9e274dc5f492cd91452",
+        "sha256_in_prefix": "0554c2fed2ddb7f68587c4e2e52a457eb03cadadf662f9e274dc5f492cd91452",
+        "size_in_bytes": 4055
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/install_scripts.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0c729b6356264661eb2ecab9c6bca651ac67658fe98f6a24bc8833e4bdcf44c",
+        "sha256_in_prefix": "c0c729b6356264661eb2ecab9c6bca651ac67658fe98f6a24bc8833e4bdcf44c",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/py36compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b75fdd85af121a3959f6e3c52b233008f00165dd500f107bacca513567ae0df1",
+        "sha256_in_prefix": "b75fdd85af121a3959f6e3c52b233008f00165dd500f107bacca513567ae0df1",
+        "size_in_bytes": 4575
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/register.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7384307602d61dc14a49ebcef0b513ff180912268df7c350c9b6f97c723ce30",
+        "sha256_in_prefix": "c7384307602d61dc14a49ebcef0b513ff180912268df7c350c9b6f97c723ce30",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/rotate.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b749fd5d617ba9cb60e633f5ff4f8d124c01408adc0a0456fa5dc21ee64a6a3e",
+        "sha256_in_prefix": "b749fd5d617ba9cb60e633f5ff4f8d124c01408adc0a0456fa5dc21ee64a6a3e",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/saveopts.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "015893f1eff1a53efc3239d8ca886bcb330b26ee23f0df143b2b25d8448362f9",
+        "sha256_in_prefix": "015893f1eff1a53efc3239d8ca886bcb330b26ee23f0df143b2b25d8448362f9",
+        "size_in_bytes": 876
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/sdist.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fcef653c8eff130d0f304fd869b2d5897050ea30fc85b56a2c15b210eda12ffa",
+        "sha256_in_prefix": "fcef653c8eff130d0f304fd869b2d5897050ea30fc85b56a2c15b210eda12ffa",
+        "size_in_bytes": 7944
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/setopt.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "89dee068b2503c5664763a0810f5f580a55ddf63956043c018d9163b4ecb670d",
+        "sha256_in_prefix": "89dee068b2503c5664763a0810f5f580a55ddf63956043c018d9163b4ecb670d",
+        "size_in_bytes": 4554
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9d3f7f0cc2e52cccc6f8ea38b072e2a8f48a755b8efd3dfbcbefa146995d8d1",
+        "sha256_in_prefix": "b9d3f7f0cc2e52cccc6f8ea38b072e2a8f48a755b8efd3dfbcbefa146995d8d1",
+        "size_in_bytes": 8430
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/upload.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ab7529083893fe142e6d340901652d7eb2af22db549077676571276b8992a50",
+        "sha256_in_prefix": "3ab7529083893fe142e6d340901652d7eb2af22db549077676571276b8992a50",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/__pycache__/upload_docs.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f8037e1ce09fc3df7c450d5fe025451c76f5b3d9b3df3ecefb119d4cd17c52e",
+        "sha256_in_prefix": "4f8037e1ce09fc3df7c450d5fe025451c76f5b3d9b3df3ecefb119d4cd17c52e",
+        "size_in_bytes": 6049
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/alias.py",
+        "path_type": "hardlink",
+        "sha256": "2a3a44d2ccff483207bf77e965c2102beb02909cfe4ab0ba1a6ba0e9bf4d91cf",
+        "sha256_in_prefix": "2a3a44d2ccff483207bf77e965c2102beb02909cfe4ab0ba1a6ba0e9bf4d91cf",
+        "size_in_bytes": 2426
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/bdist_egg.py",
+        "path_type": "hardlink",
+        "sha256": "9e77d5f0087c2110bf21fbf92e86bd15dc4beba3156f20d7c32f9fa0ff35d333",
+        "sha256_in_prefix": "9e77d5f0087c2110bf21fbf92e86bd15dc4beba3156f20d7c32f9fa0ff35d333",
+        "size_in_bytes": 18185
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/bdist_rpm.py",
+        "path_type": "hardlink",
+        "sha256": "07b9744e7cc219bfb49cb966eab4b4d2358b9288c04b05667615b6c39433fc09",
+        "sha256_in_prefix": "07b9744e7cc219bfb49cb966eab4b4d2358b9288c04b05667615b6c39433fc09",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/bdist_wininst.py",
+        "path_type": "hardlink",
+        "sha256": "ffa773de5a41d6d636d342f128f2cceea8304c271e38c81a58517e8d6dbea66d",
+        "sha256_in_prefix": "ffa773de5a41d6d636d342f128f2cceea8304c271e38c81a58517e8d6dbea66d",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/build_clib.py",
+        "path_type": "hardlink",
+        "sha256": "7d61d2146924d7454275d0560accef361a306c6f59f42657563436b92227a0eb",
+        "sha256_in_prefix": "7d61d2146924d7454275d0560accef361a306c6f59f42657563436b92227a0eb",
+        "size_in_bytes": 4415
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/build_ext.py",
+        "path_type": "hardlink",
+        "sha256": "5fb746376044a111af9b68e421c3d0bcb9cacdd0e2aa11ef5576f9b8d63d71dc",
+        "sha256_in_prefix": "5fb746376044a111af9b68e421c3d0bcb9cacdd0e2aa11ef5576f9b8d63d71dc",
+        "size_in_bytes": 13048
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/build_py.py",
+        "path_type": "hardlink",
+        "sha256": "c96c9869a4bd177a3d25b21cce7d3ae00e60d42e7f5222910f119a4ea61bb4b1",
+        "sha256_in_prefix": "c96c9869a4bd177a3d25b21cce7d3ae00e60d42e7f5222910f119a4ea61bb4b1",
+        "size_in_bytes": 9596
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/develop.py",
+        "path_type": "hardlink",
+        "sha256": "077f889873f7d01c67ab1facffd0e9f9fc6d1e1136e390021355b9866298f711",
+        "sha256_in_prefix": "077f889873f7d01c67ab1facffd0e9f9fc6d1e1136e390021355b9866298f711",
+        "size_in_bytes": 8188
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/dist_info.py",
+        "path_type": "hardlink",
+        "sha256": "e6dea439fadd8002d3f8fde882cb3a3c5f64f8b7b27acb9ec9cba4ddd5326672",
+        "sha256_in_prefix": "e6dea439fadd8002d3f8fde882cb3a3c5f64f8b7b27acb9ec9cba4ddd5326672",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/easy_install.py",
+        "path_type": "hardlink",
+        "sha256": "e6003d494c64b0f1f26094ce35c9df86232d42a83499d06e9b1837b76a98dddb",
+        "sha256_in_prefix": "e6003d494c64b0f1f26094ce35c9df86232d42a83499d06e9b1837b76a98dddb",
+        "size_in_bytes": 87501
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/egg_info.py",
+        "path_type": "hardlink",
+        "sha256": "d266fd880c84e7210ca084312dc5bf3d23c4a9364e5f63ce1716971891eebd3f",
+        "sha256_in_prefix": "d266fd880c84e7210ca084312dc5bf3d23c4a9364e5f63ce1716971891eebd3f",
+        "size_in_bytes": 25548
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/install.py",
+        "path_type": "hardlink",
+        "sha256": "f1da0cc5e4040e82b811ca3498ed969575f3ce9f509ec18943b67bc969193c6f",
+        "sha256_in_prefix": "f1da0cc5e4040e82b811ca3498ed969575f3ce9f509ec18943b67bc969193c6f",
+        "size_in_bytes": 4705
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/install_egg_info.py",
+        "path_type": "hardlink",
+        "sha256": "6cc81e21e4625f34380c018f575df6f24723c108c78ce594e059e00162d5efc4",
+        "sha256_in_prefix": "6cc81e21e4625f34380c018f575df6f24723c108c78ce594e059e00162d5efc4",
+        "size_in_bytes": 2203
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/install_lib.py",
+        "path_type": "hardlink",
+        "sha256": "533e3631cb321d9023ac1e9cc3d13b073d31b1a4dbcf19ccd4f23d0818623ed1",
+        "sha256_in_prefix": "533e3631cb321d9023ac1e9cc3d13b073d31b1a4dbcf19ccd4f23d0818623ed1",
+        "size_in_bytes": 3875
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/install_scripts.py",
+        "path_type": "hardlink",
+        "sha256": "c7bb1d1080aec85a5a7f92ee597713a78f6862df0478d6f02a45b63eff935572",
+        "sha256_in_prefix": "c7bb1d1080aec85a5a7f92ee597713a78f6862df0478d6f02a45b63eff935572",
+        "size_in_bytes": 2519
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/launcher manifest.xml",
+        "path_type": "hardlink",
+        "sha256": "c652db8d6ac1d35b4a0b4fa195590e2a48923dbccc9a5d9e38fb49fee7029db1",
+        "sha256_in_prefix": "c652db8d6ac1d35b4a0b4fa195590e2a48923dbccc9a5d9e38fb49fee7029db1",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/py36compat.py",
+        "path_type": "hardlink",
+        "sha256": "4caa85e823effafb041693895189a307399c93e982bffcc724c5cee74d0f1002",
+        "sha256_in_prefix": "4caa85e823effafb041693895189a307399c93e982bffcc724c5cee74d0f1002",
+        "size_in_bytes": 4994
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/register.py",
+        "path_type": "hardlink",
+        "sha256": "924dc3c5709be655d3bea9e17f0c7683aabb8b06d49a04f25d409a068a013949",
+        "sha256_in_prefix": "924dc3c5709be655d3bea9e17f0c7683aabb8b06d49a04f25d409a068a013949",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/rotate.py",
+        "path_type": "hardlink",
+        "sha256": "728e42d44908ecfd06193e93ab3f93d92223d8b0494d95d810ba666a8e9de0a4",
+        "sha256_in_prefix": "728e42d44908ecfd06193e93ab3f93d92223d8b0494d95d810ba666a8e9de0a4",
+        "size_in_bytes": 2164
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/saveopts.py",
+        "path_type": "hardlink",
+        "sha256": "cdaed00817108a628aae259ca0271b8713e3533df481207be33b932f8ef1a4fe",
+        "sha256_in_prefix": "cdaed00817108a628aae259ca0271b8713e3533df481207be33b932f8ef1a4fe",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/sdist.py",
+        "path_type": "hardlink",
+        "sha256": "d78901c3f40e67d2ff4500ea81ff4302512ea23d330b7d17e667c359e8b26705",
+        "sha256_in_prefix": "d78901c3f40e67d2ff4500ea81ff4302512ea23d330b7d17e667c359e8b26705",
+        "size_in_bytes": 8092
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/setopt.py",
+        "path_type": "hardlink",
+        "sha256": "353583cb1fa08c317eb717f874ee7beececb3b31d5a0a47432adf7ac5c5a46bf",
+        "sha256_in_prefix": "353583cb1fa08c317eb717f874ee7beececb3b31d5a0a47432adf7ac5c5a46bf",
+        "size_in_bytes": 5085
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/test.py",
+        "path_type": "hardlink",
+        "sha256": "a24570da277aa9887c8450151b3897e9d1187a401b6987ccb44c7b5e182c49b8",
+        "sha256_in_prefix": "a24570da277aa9887c8450151b3897e9d1187a401b6987ccb44c7b5e182c49b8",
+        "size_in_bytes": 9623
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/upload.py",
+        "path_type": "hardlink",
+        "sha256": "5d3dd81557d83c0980e6a8468347ae96e53df1fb714545be3f329c38330bc54b",
+        "sha256_in_prefix": "5d3dd81557d83c0980e6a8468347ae96e53df1fb714545be3f329c38330bc54b",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/command/upload_docs.py",
+        "path_type": "hardlink",
+        "sha256": "1b68078de34f71419efe9af710493fe80a150f413a9c2a79da66605369e40a95",
+        "sha256_in_prefix": "1b68078de34f71419efe9af710493fe80a150f413a9c2a79da66605369e40a95",
+        "size_in_bytes": 7314
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/config.py",
+        "path_type": "hardlink",
+        "sha256": "e92076398dea728a0e2661bfaec2bfb34a4a06ca2b0650e97cc254cb38d02069",
+        "sha256_in_prefix": "e92076398dea728a0e2661bfaec2bfb34a4a06ca2b0650e97cc254cb38d02069",
+        "size_in_bytes": 20575
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/dep_util.py",
+        "path_type": "hardlink",
+        "sha256": "043c75064ccd427b6f001e1a972a476d6e54541ce3aad86cd34d0fad42f866a7",
+        "sha256_in_prefix": "043c75064ccd427b6f001e1a972a476d6e54541ce3aad86cd34d0fad42f866a7",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/depends.py",
+        "path_type": "hardlink",
+        "sha256": "aadd915a5940ad1be19e6f25c6cc91a5cb61119629e061d0811125d6ad0b905c",
+        "sha256_in_prefix": "aadd915a5940ad1be19e6f25c6cc91a5cb61119629e061d0811125d6ad0b905c",
+        "size_in_bytes": 5517
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/dist.py",
+        "path_type": "hardlink",
+        "sha256": "9fabca3ed4b6e92b16e4483b3b577369b957bb052b70a44630e84c6df1360133",
+        "sha256_in_prefix": "9fabca3ed4b6e92b16e4483b3b577369b957bb052b70a44630e84c6df1360133",
+        "size_in_bytes": 49864
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/errors.py",
+        "path_type": "hardlink",
+        "sha256": "31539cbf7f351cd49a8c3804516cce43827a0790470813128c77da59c130035a",
+        "sha256_in_prefix": "31539cbf7f351cd49a8c3804516cce43827a0790470813128c77da59c130035a",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/extension.py",
+        "path_type": "hardlink",
+        "sha256": "b9cea71c8f8cc7098d08d3db522067c9b4b2aa1a49aa36e1bce43e7a676fb7f1",
+        "sha256_in_prefix": "b9cea71c8f8cc7098d08d3db522067c9b4b2aa1a49aa36e1bce43e7a676fb7f1",
+        "size_in_bytes": 1729
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/extern/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e2af60b52841d5714fe828ac96db323eab5c7d33ba64cf4bbb540197797eaa6a",
+        "sha256_in_prefix": "e2af60b52841d5714fe828ac96db323eab5c7d33ba64cf4bbb540197797eaa6a",
+        "size_in_bytes": 2514
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/extern/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3523efdb3f49795ae30c4add29734977310ab37d5f0bc0f93afa561b430d4545",
+        "sha256_in_prefix": "3523efdb3f49795ae30c4add29734977310ab37d5f0bc0f93afa561b430d4545",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/glob.py",
+        "path_type": "hardlink",
+        "sha256": "a3be5c1eb3b162cbe7f39e2d852c44d31f64f09aca0ee84ffeb457955074d10e",
+        "sha256_in_prefix": "a3be5c1eb3b162cbe7f39e2d852c44d31f64f09aca0ee84ffeb457955074d10e",
+        "size_in_bytes": 5084
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/gui-32.exe",
+        "path_type": "hardlink",
+        "sha256": "5c1af46c7300e87a73dacf6cf41ce397e3f05df6bd9c7e227b4ac59f85769160",
+        "sha256_in_prefix": "5c1af46c7300e87a73dacf6cf41ce397e3f05df6bd9c7e227b4ac59f85769160",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/gui-64.exe",
+        "path_type": "hardlink",
+        "sha256": "69828c857d4824b9f850b1e0597d2c134c91114b7a0774c41dffe33b0eb23721",
+        "sha256_in_prefix": "69828c857d4824b9f850b1e0597d2c134c91114b7a0774c41dffe33b0eb23721",
+        "size_in_bytes": 75264
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/gui.exe",
+        "path_type": "hardlink",
+        "sha256": "5c1af46c7300e87a73dacf6cf41ce397e3f05df6bd9c7e227b4ac59f85769160",
+        "sha256_in_prefix": "5c1af46c7300e87a73dacf6cf41ce397e3f05df6bd9c7e227b4ac59f85769160",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/installer.py",
+        "path_type": "hardlink",
+        "sha256": "f3f0277355719c1f765ca6635661007fccdf4df9a376fd5c50fb93c475ff4352",
+        "sha256_in_prefix": "f3f0277355719c1f765ca6635661007fccdf4df9a376fd5c50fb93c475ff4352",
+        "size_in_bytes": 5336
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/launch.py",
+        "path_type": "hardlink",
+        "sha256": "b1dede8f0841a1c083c7fc06f6b22cd0e699f07b6698553c642e8847f4b42ef8",
+        "sha256_in_prefix": "b1dede8f0841a1c083c7fc06f6b22cd0e699f07b6698553c642e8847f4b42ef8",
+        "size_in_bytes": 787
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/lib2to3_ex.py",
+        "path_type": "hardlink",
+        "sha256": "b797b5da16d1da98bd5787b35834c1e0933e0084949c63a499c9d81de937c638",
+        "sha256_in_prefix": "b797b5da16d1da98bd5787b35834c1e0933e0084949c63a499c9d81de937c638",
+        "size_in_bytes": 2013
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/monkey.py",
+        "path_type": "hardlink",
+        "sha256": "14673d7df7e1ee003130b16626cd835bf3985a906391d6cd4b69f5e1400ae0d0",
+        "sha256_in_prefix": "14673d7df7e1ee003130b16626cd835bf3985a906391d6cd4b69f5e1400ae0d0",
+        "size_in_bytes": 5264
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/msvc.py",
+        "path_type": "hardlink",
+        "sha256": "a6476a20ff53682d894d257a36b465d1799f1e5e1b3df296c95d63a02d426b86",
+        "sha256_in_prefix": "a6476a20ff53682d894d257a36b465d1799f1e5e1b3df296c95d63a02d426b86",
+        "size_in_bytes": 46807
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/namespaces.py",
+        "path_type": "hardlink",
+        "sha256": "42ebc847c4b9faefd2f3f7cb8cfa67feeb6bb9422cbb6b70751bbf2893eb294d",
+        "sha256_in_prefix": "42ebc847c4b9faefd2f3f7cb8cfa67feeb6bb9422cbb6b70751bbf2893eb294d",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/package_index.py",
+        "path_type": "hardlink",
+        "sha256": "8228ff70838a131321365eaa47209b7ac541b40a354f8eb848d69c6d52c2491c",
+        "sha256_in_prefix": "8228ff70838a131321365eaa47209b7ac541b40a354f8eb848d69c6d52c2491c",
+        "size_in_bytes": 40834
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/py27compat.py",
+        "path_type": "hardlink",
+        "sha256": "0961e4596018a1dbb742088802bf3edf84fe1ba7e24a0895174cbb875d4b77b5",
+        "sha256_in_prefix": "0961e4596018a1dbb742088802bf3edf84fe1ba7e24a0895174cbb875d4b77b5",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/py31compat.py",
+        "path_type": "hardlink",
+        "sha256": "876aed66084e7f0a0661df2c434f9ab9a2a21774dc2f7a97d1b5f755eb2ca9c1",
+        "sha256_in_prefix": "876aed66084e7f0a0661df2c434f9ab9a2a21774dc2f7a97d1b5f755eb2ca9c1",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/py33compat.py",
+        "path_type": "hardlink",
+        "sha256": "48c17d67cc271a27133a4535b9137067f933e59fdb8f6f4f5016ea76a79e36c7",
+        "sha256_in_prefix": "48c17d67cc271a27133a4535b9137067f933e59fdb8f6f4f5016ea76a79e36c7",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/py34compat.py",
+        "path_type": "hardlink",
+        "sha256": "29839deb26d1c63056f0d266603f2dfd4cb2566caca69157a87a452ddb251975",
+        "sha256_in_prefix": "29839deb26d1c63056f0d266603f2dfd4cb2566caca69157a87a452ddb251975",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/sandbox.py",
+        "path_type": "hardlink",
+        "sha256": "4dba8a1a2117c1f2d8ae942177ceb70dc877ff21a13a69409210a20586b0f9e7",
+        "sha256_in_prefix": "4dba8a1a2117c1f2d8ae942177ceb70dc877ff21a13a69409210a20586b0f9e7",
+        "size_in_bytes": 14284
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/script (dev).tmpl",
+        "path_type": "hardlink",
+        "sha256": "454cd0cc2414697b7074bb581d661b21098e6844b906baaad45bd403fb6efb92",
+        "sha256_in_prefix": "454cd0cc2414697b7074bb581d661b21098e6844b906baaad45bd403fb6efb92",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/script.tmpl",
+        "path_type": "hardlink",
+        "sha256": "5864ede6989eccedbb73e0dbc7a9794384f715fdb4039cfbf3bda1bf76808586",
+        "sha256_in_prefix": "5864ede6989eccedbb73e0dbc7a9794384f715fdb4039cfbf3bda1bf76808586",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/site-patch.py",
+        "path_type": "hardlink",
+        "sha256": "db96927020341970aa52d4826efdfce9c4d26c197fbbf929fc32539c9b2c87e1",
+        "sha256_in_prefix": "db96927020341970aa52d4826efdfce9c4d26c197fbbf929fc32539c9b2c87e1",
+        "size_in_bytes": 2346
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/ssl_support.py",
+        "path_type": "hardlink",
+        "sha256": "4cd34eab757257ee30911c26d1d9b223317e89705e5afe32210f7d7966bf6d5f",
+        "sha256_in_prefix": "4cd34eab757257ee30911c26d1d9b223317e89705e5afe32210f7d7966bf6d5f",
+        "size_in_bytes": 8543
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/unicode_utils.py",
+        "path_type": "hardlink",
+        "sha256": "34e899ff9843ef603ac3ee30563f1ac0714cde7e752a6c3521cfefc75e5716ac",
+        "sha256_in_prefix": "34e899ff9843ef603ac3ee30563f1ac0714cde7e752a6c3521cfefc75e5716ac",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/version.py",
+        "path_type": "hardlink",
+        "sha256": "a20fdcb9941bd1023aba429915f6563e5af51e02413cf9f6bceda6fdb23d6531",
+        "sha256_in_prefix": "a20fdcb9941bd1023aba429915f6563e5af51e02413cf9f6bceda6fdb23d6531",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/wheel.py",
+        "path_type": "hardlink",
+        "sha256": "0149add96eb02f6644a38a296e057fb884a89c054320b6e19bc13b9ebdd8b25d",
+        "sha256_in_prefix": "0149add96eb02f6644a38a296e057fb884a89c054320b6e19bc13b9ebdd8b25d",
+        "size_in_bytes": 8468
+      },
+      {
+        "_path": "lib/python3.6/site-packages/setuptools/windows_support.py",
+        "path_type": "hardlink",
+        "sha256": "e46adfa923f6f9d2c6268653ab683a7422a4c90c716b69f92108979490a86041",
+        "sha256_in_prefix": "e46adfa923f6f9d2c6268653ab683a7422a4c90c716b69f92108979490a86041",
+        "size_in_bytes": 714
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2569ef8b65fa4fcfc997a22bd48715dc636750e579615ce49b7a378505ddf826",
+  "size": 532254,
+  "subdir": "linux-64",
+  "timestamp": 1581351382956,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/setuptools-45.2.0-py36_0.conda",
+  "version": "45.2.0"
+}

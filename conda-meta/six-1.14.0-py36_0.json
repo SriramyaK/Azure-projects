@@ -1,0 +1,101 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/sri/anaconda3/pkgs/six-1.14.0-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc",
+    "lib/python3.6/site-packages/six-1.14.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/six-1.14.0.dist-info/LICENSE",
+    "lib/python3.6/site-packages/six-1.14.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/six-1.14.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/six-1.14.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/six-1.14.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/six.py"
+  ],
+  "fn": "six-1.14.0-py36_0.conda",
+  "legacy_bz2_md5": "740812179949cd44db43db51ef7a935e",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/sri/anaconda3/pkgs/six-1.14.0-py36_0",
+    "type": 1
+  },
+  "md5": "6306bc79a1d46167f1dc80eb6d05f739",
+  "name": "six",
+  "package_tarball_full_path": "/home/sri/anaconda3/pkgs/six-1.14.0-py36_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d4ae92576114e4baa4ba6b53bd9d5d99964cffe07aa62455f18e062594bc74d",
+        "sha256_in_prefix": "4d4ae92576114e4baa4ba6b53bd9d5d99964cffe07aa62455f18e062594bc74d",
+        "size_in_bytes": 26941
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six-1.14.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six-1.14.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8bb850c565aa389fdc16f3a46965ad23d82adff60f2393fc2762b63185e8e6c9",
+        "sha256_in_prefix": "8bb850c565aa389fdc16f3a46965ad23d82adff60f2393fc2762b63185e8e6c9",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six-1.14.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9c401cf61b80b67d770676b7310d594acc28c9a57b18c25d29f1a5b87157e035",
+        "sha256_in_prefix": "9c401cf61b80b67d770676b7310d594acc28c9a57b18c25d29f1a5b87157e035",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six-1.14.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e535c58be278fb0e83c1f66eb039cc6a63a1a3478b808df661a49026c8c248f0",
+        "sha256_in_prefix": "e535c58be278fb0e83c1f66eb039cc6a63a1a3478b808df661a49026c8c248f0",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six-1.14.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six-1.14.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+        "sha256_in_prefix": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six.py",
+        "path_type": "hardlink",
+        "sha256": "43a5af1176750c6100480a370863422642afdad3f2f3191298af951c4f4f6080",
+        "sha256_in_prefix": "43a5af1176750c6100480a370863422642afdad3f2f3191298af951c4f4f6080",
+        "size_in_bytes": 34074
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fa1fa2dd41b8ab7cd5b0a374912a8e50d8d6d8843f44a7c1f54a447b393ceae5",
+  "size": 27421,
+  "subdir": "linux-64",
+  "timestamp": 1580149944409,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/six-1.14.0-py36_0.conda",
+  "version": "1.14.0"
+}
