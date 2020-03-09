@@ -7,6 +7,12 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+bin/
+compiler_compat/
+conda-meta/
+include/
+share/
+ssl/
 .Python
 build/
 develop-eggs/
